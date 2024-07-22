@@ -5,7 +5,7 @@ import Coursemain from "./component/Coursemain";
 import Signup from "./component/Signup";
 import { Toaster } from "react-hot-toast";
 import { useAuth } from "./context/Authprovider";
-const App = () => {
+const Index = () => {
   const [authUser, setAuthUser] = useAuth();
   console.log(authUser);
   return (
@@ -30,4 +30,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Index;
