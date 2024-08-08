@@ -5,6 +5,7 @@ import Coursemain from "./component/Coursemain";
 import Signup from "./component/Signup";
 import { Toaster } from "react-hot-toast";
 import { useAuth } from "./context/Authprovider";
+import Detail from "./component/Detail";
 const Index = () => {
   const [authUser, setAuthUser] = useAuth();
   console.log(authUser);
@@ -24,6 +25,7 @@ const Index = () => {
           }
         ></Route>
         <Route path="/signup" element={<Signup></Signup>}></Route>
+        <Route path="/detail" element={<Detail></Detail>}></Route>
       </Routes>
       <Toaster />
     </>
