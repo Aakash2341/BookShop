@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Cart from "./Cart";
-import Footer from "./Footer";
 import Banner from "./Banner";
+import Footer_ from "./Footer";
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
       <Navbar></Navbar>
       <Banner></Banner>
       <Cart></Cart>
-      <Footer></Footer>
+      <Footer_></Footer_>
     </div>
   );
 };
